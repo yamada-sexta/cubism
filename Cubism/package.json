@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@mdi/svg": "^7.0.96",
+    "esbuild": "^0.15.9",
+    "monaco-editor": "^0.34.0",
+    "webpack": "^5.74.0"
+  },
+  "scripts": {
+    "build": "esbuild src/Demo/DemoFunctions.ts --bundle --outfile=build.js",
+    "watch": "esbuild src/Demo/DemoFunctions.ts --bundle --sourcemap --outfile=../docs/es-build.js --watch --format=esm"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "webpack-cli": "^4.10.0"
+  }
+}

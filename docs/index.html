@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+    <title>Cubism Demo</title>
+    <meta property="og:title" content="Cubism Demo" />
+    <meta name="twitter:title" content="Cubism Demo ">
+    <meta property="og:image" content="https://user-images.githubusercontent.com/114621472/195958866-5153fdfb-32ef-4474-bc40-f58f886ef7b9.png" />
+    <meta name="twitter:image" content=" https://user-images.githubusercontent.com/114621472/195958866-5153fdfb-32ef-4474-bc40-f58f886ef7b9.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:description" content="Cubism is a JavaScript UI framework." />
+    <meta name="description" content="Cubism is a JavaScript UI framework." />
+    <meta name="twitter:description" content="Cubism is a JavaScript UI framework.">
+
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+    <style>
+        html {
+            overflow: hidden;
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            overflow: auto;
+        }
+        .border {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+<div>
+    <canvas id="mainCanvas" class="border"></canvas>
+</div>
+
+<div>
+    <label for="selector">Current Demo: </label><select id="selector" style="padding: 2px;margin: 5px">Selector</select>
+    <button id="recordBtn">Stop Record</button>
+    <br></br>
+    <div style="white-space:pre" id ="descriptionText">This is description for curr demo</div>
+    <br>
+    <div id="controlDiv" style="padding: 10px 5px"></div>
+
+</div>
+
+<label for="codeText"></label>
+<textarea id="codeText" spellcheck="false" style="height: 300px;width: 500px">
+    console.log("user function");
+</textarea>
+<script src="es-build.js"></script>
+
+</body>
+
+</html>

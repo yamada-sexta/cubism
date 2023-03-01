@@ -1,0 +1,3 @@
+interface IToCodeable{
+    toCode():string;
+}
