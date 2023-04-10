@@ -4,7 +4,7 @@
 
 Cubism is an HTML Canvas based UI framework. It provides more consistency across different broswers.
 
-You can try the online demo [here](https://nannoda.github.io/Cubism/).
+You can try the online demo [here](https://nannoda.github.io/cubism/).
 
 
 ## Example
